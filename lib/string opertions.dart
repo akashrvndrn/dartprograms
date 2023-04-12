@@ -1,10 +1,5 @@
-void main(){
-String animal=" tiger";
-print(animal.length);
-String bird="crow";
-print(animal.compareTo(bird)==0);
+void main() {
+  List<Map<String, dynamic>>Product = [{"name": "AKASH", "age": "24"},
+    {"bird": "eagle", "dis": 30}];
 
-bird.toLowerCase();
-print(animal.toUpperCase());
-print(animal.trim());
-}
+print(Product);}
